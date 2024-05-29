@@ -1,0 +1,72 @@
+body{
+
+    background: linear-gradient(90deg, hsla(266, 94%, 49%, 1) 0%, hsla(321, 92%, 77%, 1) 100%);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    overflow-x: hidden;
+
+}
+
+.container{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    width: 60vh;
+    padding: 12vh;
+    border-radius: 5vh;
+    max-width: fit-content;
+    
+}
+
+input{
+    padding: 10px;
+    background-color:rgb(248, 230, 230);
+    box-shadow: 5px 10px 8px rgba(216, 63, 251, 0.3);
+    border: 1px solid #ccc;
+    border-radius: 12vh;
+    box-sizing: border-box; 
+    font-size: 16px;
+    width: 42vh;
+    color: #333;
+}
+
+button{
+    cursor: pointer;
+width: 32vh;
+height: 6vh;
+border-radius: 8vh;
+color: aliceblue;
+font-size: 2vh;
+background: rgba(194, 28, 213, 1.0);
+background: linear-gradient(135deg, rgba(194, 28, 213, 1.0), rgba(10, 62, 195, 1.0));
+}
+button:hover{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+  }
+  input::placeholder {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+      padding: 5vh;
+      width: fit-content;
+    }
+    input{
+        width: fit-content;
+        /* padding: auto; */
+    }
+  }
