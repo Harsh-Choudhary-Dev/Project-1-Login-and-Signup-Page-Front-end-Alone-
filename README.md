@@ -1,4 +1,4 @@
-# Login and Sign Up Page with Gradient and Neon Effects
+# Login and Sign Up Page
 
 This project features a stylish login and sign up page with gradient backgrounds, neon effects, and images from the Unsplash API. It uses HTML, CSS, and JavaScript.
 
